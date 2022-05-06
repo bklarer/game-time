@@ -1,28 +1,28 @@
 body {
     width: 100%;
     height: 100%;
-    margin: 0;
+    margin: auto;
     text-align: center;
   }
 
 section {
     display: flex;
     justify-content: space-around;
-    justify-content: space-between;  
+    padding: 40px;
 }
 
 section>div {
-    height: 500px;
-    width: 800px;
+    height: 300px;
+    width: 400px;
 }
 
 section>div>img {
-    width: 180px;
-    height: 180px;
+    width: 150px;
+    height: 150px;
 }
 
 section>div>ul {
-    text-align: left
+    text-align: left;
 }
 
 #goals {
@@ -30,7 +30,7 @@ section>div>ul {
 }
 
 #education {
-
+    background-color: aqua;
 }
 
 #experience {
