@@ -5,8 +5,15 @@ body {
     text-align: center;
   }
 
-h1 {
+section {
+    display: flex;
+    justify-content: space-around;
+    justify-content: space-between;  
+}
 
+section>div {
+    height: 500px;
+    width: 800px;
 }
 
 section>div>img {
@@ -19,13 +26,13 @@ section>div>ul {
 }
 
 #goals {
-    float: left;
+
 }
 
 #education {
-    float: left;
+
 }
 
 #experience {
-    float: left;
+
 }
