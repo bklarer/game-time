@@ -1,4 +1,8 @@
-const h2 = document.createElement("h2");
 
-document.querySelector("body").appendChild(h2);
+yay.addEventListener('mouseenter',function() {
+    let yay = document.getElementById("yay").src="img/yay.png"
+})
 
+yay.addEventListener('mouseout',function() {
+    let yay = document.getElementById("yay").src="img/verizon.png"
+})

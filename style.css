@@ -4,7 +4,6 @@ body {
     margin: auto;
     text-align: center;
     font-size: 20px;
-
   }
 
 section {
@@ -32,7 +31,6 @@ section>div>ul {
     top: 8px;
     left: 16px;
     color: white;
-
 }
 
 #tree {
@@ -40,15 +38,7 @@ section>div>ul {
     z-index: 0;
 }
 
-#goals {
-
-}
-
 #education {
     background-color: #2B9348;
     color: white;
-}
-
-#experience {
-
 }
